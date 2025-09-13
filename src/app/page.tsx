@@ -229,7 +229,7 @@ export default function ConcentrixHomepage() {
               </div>
               <h3 className="text-xl font-bold mb-4">Digital Marketing Services</h3>
               <p className="text-gray-600 mb-6">
-               Boost brand awareness and business growth through data-driven digital marketing strategies and campaigns.
+               Boost brand awareness and your business growth through data-driven digital marketing strategies and campaigns.
               </p>
               <Button variant="link" className="text-teal-600 hover:text-teal-700 p-0">
                 Learn More <ArrowRight className="w-4 h-4 ml-1" />
