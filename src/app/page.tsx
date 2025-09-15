@@ -12,7 +12,7 @@ export default function ConcentrixHomepage() {
           <div className="flex items-center gap-8">
             <div className="flex items-center gap-2">
               <Menu className="w-5 h-5" />
-              <span className="text-xl font-bold">NovaTech</span>
+              <span className="text-xl font-bold">Concentrix</span>
             </div>
           </div>
           <div className="flex items-center gap-4">
@@ -37,7 +37,7 @@ export default function ConcentrixHomepage() {
         <div className="max-w-7xl mx-auto px-4 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-5xl lg:text-6xl font-bold mb-6 text-balance">NovaTech Solutions</h1>
+              <h1 className="text-5xl lg:text-6xl font-bold mb-6 text-balance">Concentrix Solutions</h1>
               <p className="text-xl mb-4 font-medium">The intelligent transformation partner.</p>
               <p className="text-lg mb-8 opacity-90 leading-relaxed">
                 We design, build and run intelligent, digitally-enabled business processes and technology solutions that
@@ -54,7 +54,7 @@ export default function ConcentrixHomepage() {
           </div>
         </div>
         <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-center">
-          <p className="text-sm opacity-80">NovaTech Rises to #406 on the 2025 with 1k+ clients</p>
+          <p className="text-sm opacity-80">Concentrix Rises to #406 on the 2025 with 1k+ clients</p>
           <Button variant="link" className="text-teal-400 hover:text-teal-300 p-0 h-auto">
             Press Release
           </Button>
