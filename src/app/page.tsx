@@ -1,3 +1,4 @@
+"use client";
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { ArrowRight, Globe, Menu, Search } from "lucide-react"
@@ -12,7 +13,7 @@ export default function ConcentrixHomepage() {
           <div className="flex items-center gap-8">
             <div className="flex items-center gap-2">
               <Menu className="w-5 h-5" />
-              <span className="text-xl font-bold">Concentrix</span>
+              <span className="text-xl font-bold">NovaTech Solutions</span>
             </div>
           </div>
           <div className="flex items-center gap-4">
@@ -22,6 +23,21 @@ export default function ConcentrixHomepage() {
               className="text-white border-white hover:bg-white hover:text-slate-800 bg-transparent"
             >
               Careers
+            </Button>
+                    {/* Contact Us Button */}
+            <Button
+              variant="outline"
+              size="sm"
+              asChild
+              className="text-white border-white hover:bg-white hover:text-slate-800 bg-transparent"
+            >
+              <a
+                href="https://docs.google.com/forms/d/1iU7Uasw5XWGzSYH93hlKL7GAs3_yAWvsn7p7wn9lFzU/edit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contact Us
+              </a>
             </Button>
             <div className="flex items-center gap-2">
               <Globe className="w-4 h-4" />
@@ -37,11 +53,10 @@ export default function ConcentrixHomepage() {
         <div className="max-w-7xl mx-auto px-4 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-5xl lg:text-6xl font-bold mb-6 text-balance">Concentrix Solutions</h1>
-              <p className="text-xl mb-4 font-medium">The intelligent transformation partner.</p>
+              <h1 className="text-5xl lg:text-6xl font-bold mb-6 text-balance">NovaTech Solutions</h1>
+              <p className="text-xl mb-4 font-medium">  Your partner in intelligent transformation.</p>
               <p className="text-lg mb-8 opacity-90 leading-relaxed">
-                We design, build and run intelligent, digitally-enabled business processes and technology solutions that
-                transform experiences and solve important business challenges.
+             We create, implement, and manage smart, digitally powered business processes and technology solutions that enhance experiences and address critical business challenges.
               </p>
               <Button className="bg-teal-400 hover:bg-teal-300 text-slate-900 font-semibold px-8 py-3">About Us</Button>
             </div>
@@ -54,7 +69,7 @@ export default function ConcentrixHomepage() {
           </div>
         </div>
         <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-center">
-          <p className="text-sm opacity-80">Concentrix Rises to #406 on the 2025 with 1k+ clients</p>
+          <p className="text-sm opacity-80">NovaTech Solutions Rises to #406 on the 2025 with 1k+ clients</p>
           <Button variant="link" className="text-teal-400 hover:text-teal-300 p-0 h-auto">
             Press Release
           </Button>
