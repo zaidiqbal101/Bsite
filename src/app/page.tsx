@@ -13,7 +13,7 @@ export default function ConcentrixHomepage() {
           <div className="flex items-center gap-8">
             <div className="flex items-center gap-2">
               <Menu className="w-5 h-5" />
-              <span className="text-xl font-bold">NovaTech Solutions</span>
+              <span className="text-xl font-bold">Rubikon Software Labs</span>
             </div>
           </div>
           <div className="flex items-center gap-4">
@@ -53,23 +53,30 @@ export default function ConcentrixHomepage() {
         <div className="max-w-7xl mx-auto px-4 relative z-10">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h1 className="text-5xl lg:text-6xl font-bold mb-6 text-balance">NovaTech Solutions</h1>
+              <h1 className="text-5xl lg:text-6xl font-bold mb-6 text-balance">Rubikon Software Labs</h1>
               <p className="text-xl mb-4 font-medium">  Your partner in intelligent transformation.</p>
               <p className="text-lg mb-8 opacity-90 leading-relaxed">
              We create, implement, and manage smart, digitally powered business processes and technology solutions that enhance experiences and address critical business challenges.
               </p>
               <Button className="bg-teal-400 hover:bg-teal-300 text-slate-900 font-semibold px-8 py-3">About Us</Button>
             </div>
-            <div className="relative">
-              <div className="relative w-full h-80 rounded-full border-4 border-teal-400 overflow-hidden">
-                <Image src="/city-skyline-at-night-with-lights-reflecting-on-wa.jpg" alt="City skyline" fill className="object-cover" />
-              </div>
-              <div className="absolute -top-4 -right-4 w-20 h-20 rounded-full border-4 border-teal-400 bg-teal-400/20"></div>
-            </div>
+           <div className="relative">
+  <div className="relative w-full h-80 rounded-full border-4 border-teal-400 overflow-hidden bg-white">
+    <Image
+      src="/LOGO.png"
+      alt="Rubikon Software Labs Logo"
+      fill
+      className="object-cover scale-125"
+      priority
+    />
+  </div>
+
+  <div className="absolute -top-4 -right-4 w-20 h-20 rounded-full border-4 border-teal-400 bg-teal-400/20"></div>
+</div>
           </div>
         </div>
         <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-center">
-          <p className="text-sm opacity-80">NovaTech Solutions Rises to #406 on the 2025 with 1k+ clients</p>
+          <p className="text-sm opacity-80">Rubikon Software Labs Rises to #406 on the 2025 with 1k+ clients</p>
           <Button variant="link" className="text-teal-400 hover:text-teal-300 p-0 h-auto">
             Press Release
           </Button>
